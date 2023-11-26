@@ -1,0 +1,57 @@
+body {
+  background-color: #1f1047;
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+hr {
+  width: 500px;
+}
+
+canvas {
+  width: 400px;
+  margin: 5px;
+  border: 1px solid #b5adc9;
+}
+
+#clear {
+  margin-left: 4px;
+}
+
+#grayscale {
+  background-color: #5d635f;
+  color: white;
+}
+
+#red {
+  background-color: #851e17;
+  color: white;
+}
+
+#blue {
+  background-color: #282dd1;
+  color: white;
+}
+
+#green {
+  background-color: #28d14c;
+  color: white;
+}
+
+#magenta {
+  background-color: #ff00ff;
+  color: white;
+}
+
+#rainbow {
+  background-color: #ee82ee
+;
+}
+
+#negative {
+  background-color: black;
+  color: white;
+}
+
+

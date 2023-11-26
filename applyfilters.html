@@ -1,0 +1,56 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="applyfilters.css" />
+      <script src="applyfilters.js"></script>
+    </head>
+    <body>
+      <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+      <h1>Apply filters to your image</h1>
+      <canvas id="can"></canvas>
+
+      <h2>Upload your image</h2>
+      <p><input type="file" id="finput" onchange="upload()" /></p>
+      <hr />
+      <h2>Choose filters</h2>
+      <p>
+        <input
+          type="button"
+          id="grayscale"
+          value="Grayscale"
+          onclick="grayscale()"
+        />
+        <input type="button" id="red" value="Red" onclick="red()" />
+        <input type="button" id="blue" value="Blue" onclick="blue()" />
+        <input type="button" id="green" value="Green" onclick="green()" />
+        <input type="button" id="magenta" value="Magenta" onclick="magenta()" />
+        <input type="button" id="rainbow" value="Rainbow" onclick="rainbow()" />
+        <input
+          type="button"
+          id="negative"
+          value="Negative"
+          onclick="negative()"
+        />
+      </p>
+
+      <p>
+        <input
+          type="button"
+          id="reset"
+          value="Reset Image"
+          onclick="resetimg()"
+        /><input
+          type="button"
+          id="clear"
+          value="Clear the image"
+          onclick="clearimg()"
+        />
+      </p>
+    </body>
+  </html>
+</DOCTYPE>
